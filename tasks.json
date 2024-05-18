@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "tasks": [
+    {
+      "label": "javac",
+      "type": "shell",
+      "command": "javac",
+      "args": [
+        "-d",
+        "bin",
+        "sourcepath",
+        "src",
+        "${workspaceFolder}/src/**/*.java"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$javac"]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Debug (Launch) - Current File",
+      "request": "launch",
+      "mainClass": "banco.Main",
+      "projectName": "your-project-name",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
